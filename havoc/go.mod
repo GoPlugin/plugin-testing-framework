@@ -8,9 +8,8 @@ require (
 	github.com/chaos-mesh/chaos-mesh/api v0.0.0-20240821051457-da69c6d9617a
 	github.com/pkg/errors v0.9.1
 	github.com/rs/zerolog v1.33.0
-	//github.com/goplugin/plugin-testing-framework/lib/grafana v0.1.0
-	github.com/goplugin/plugin-testing-framework/lib/grafana v0.0.1 //plugin latest update
-	k8s.io/api v0.31.0
+	//github.com/goplugin/plugin-testing-framework/lib/grafana v1.50.0
+	github.com/goplugin/plugin-testing-framework/lib/grafana v0.1.1 //plugin update changes
 	k8s.io/client-go v0.31.0
 	sigs.k8s.io/controller-runtime v0.16.2
 )
@@ -78,3 +77,5 @@ require (
 )
 
 replace sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.19.0
+
+retract [v1.999.0-test-release, v1.999.999-test-release]
