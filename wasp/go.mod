@@ -22,7 +22,7 @@ require (
 	k8s.io/api v0.28.2
 	k8s.io/apimachinery v0.28.2
 	k8s.io/client-go v0.28.2
-	nhooyr.io/websocket v1.8.7
+	nhooyr.io/websocket v1.8.17
 )
 
 require (
@@ -166,9 +166,9 @@ require (
 )
 
 require (
-	github.com/grafana/pyroscope-go v1.1.2
 	//github.com/goplugin/plugin-testing-framework/lib/grafana v1.50.0
 	github.com/goplugin/plugin-testing-framework/lib/grafana v0.1.1 //plugin update changes
+	github.com/grafana/pyroscope-go v1.1.2
 )
 
 require (
