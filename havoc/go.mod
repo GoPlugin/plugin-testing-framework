@@ -10,6 +10,7 @@ require (
 	github.com/rs/zerolog v1.33.0
 	//github.com/goplugin/plugin-testing-framework/lib/grafana v1.50.0
 	github.com/goplugin/plugin-testing-framework/lib/grafana v0.1.1 //plugin update changes
+	k8s.io/api v0.31.0
 	k8s.io/client-go v0.31.0
 	sigs.k8s.io/controller-runtime v0.16.2
 )
